@@ -4,7 +4,9 @@ A small old python script from several years ago written to take advantage of th
 
 You can get the db here: https://www.maxmind.com/en/home
 
-and once you create an account or login, just download the db and add the path to the line reader = geoip2.database.Reader("path_to_db") # load db once. The db is updated often so you should get into the habit of downloading the db from the site.
+and once you create an account or login, just download the db and add the path to the line: `reader = geoip2.database.Reader("path_to_db") # load db once.`
+
+The db is updated often so you should get into the habit of downloading the db from the site.
 
 ------
 
